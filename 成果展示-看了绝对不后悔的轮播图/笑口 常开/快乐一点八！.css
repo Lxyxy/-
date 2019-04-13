@@ -1,0 +1,65 @@
+*{ 
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    background:url(pic/快乐之路.jpg);
+
+}
+.container{
+   margin:0 auto;
+}
+.head{
+   padding: 20px;
+   font-size: 50px;
+   color:rgb(157, 255, 0);
+   text-align:center;
+}
+
+ul{
+   list-style: none;
+}
+
+#box{
+   position: relative;
+   width: 400px;
+   height: 200px;
+   overflow: hidden;/*隐藏溢出的图片*/
+   border-radius:100px;
+}
+
+.pic{
+   width:2000px;/*5张图的宽度*/
+   position: absolute;/*基于父容器进行定位*/
+   left:0;
+   animation-name: focusmap;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+
+}
+@keyframes focusmap {
+   0%,25%{
+       left: 0;
+   }
+   25%,50%{
+       left: -400px;
+   }
+   50%,70%{
+       left: -800px;
+   }
+   70%,85%{
+      left: -1200px;
+   }
+   100%{
+       left: -1600px;
+   }
+  
+}
+.pic li{
+   float: left;
+   background: #5dd94e;
+}
+
+.pic li img {
+   width: 400px;
+   height: 200px;
+}

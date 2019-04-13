@@ -1,0 +1,60 @@
+        body{
+            background-image:url(PIC/背景.jpg);
+            color:white;
+            /*background-color: black;*/
+            list-style: none;
+        }
+        img{
+            margin:0;
+            padding:0;
+        }
+        a:hover{
+            color: antiquewhite;
+        }
+         #head{
+             text-align:center;
+             font-size:50px;
+             margin:50px;
+            
+         }
+         #headtu{
+            width:40px;
+            height:60px;
+            border-radius: 50%;
+         }
+         #middle{
+             height:500px;
+             text-align:center;
+         }
+         li{
+             text-decoration: none;
+             margin:10x;
+            color:coral;
+            
+         }
+         li a{
+            color:coral;
+         }
+         #zuo{
+            width:400px;
+            float:left;
+            margin-left:50px;
+            margin-right:0;
+         }
+         #da{
+             font-size: 50px;
+             color:aqua;
+         }
+        #zhong{
+            width:400px;
+            margin-top:10px;
+            float:left;
+         }
+         #p1{
+             width:400px;
+             height:400px;
+         }
+         #foot{
+             text-align:center;
+             color:aquamarine;
+         }
